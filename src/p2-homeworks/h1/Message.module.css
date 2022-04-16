@@ -1,0 +1,65 @@
+.message {
+    display: flex;
+    flex-direction: row;
+    background-color: yellowgreen;
+    flex-wrap: nowrap;
+    width: 450px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.avatar {
+    position:relative;
+    top:0;
+    left:0;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    position:absolute;
+    bottom:5px;
+    left:5px;
+}
+
+.block {
+    margin: 15px 15px 25px 70px;
+    position: relative;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px 10px 10px 0;
+    background: black;
+    color: #bbfbbc;
+}
+
+.block::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 30px;
+    height: 25px;
+    background: radial-gradient(60px at top left, transparent 49%, black 51%) no-repeat right bottom;
+}
+
+.text {
+    padding-right: 50px;
+}
+
+.text h4 {
+    color: blueviolet;
+}
+
+text p {
+    color: lightgreen;
+}
+
+.m_time {
+    display: flex;
+    align-items: flex-end;
+    height: 0;
+    justify-content: flex-end;
+    color: darkgreen;
+}
