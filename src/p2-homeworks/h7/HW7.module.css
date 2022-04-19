@@ -1,0 +1,14 @@
+.textPosition{
+    text-align: center;
+    color: lightgreen;
+}
+.background{
+   background-color: #282c34;
+}
+
+.radioPosition,
+.selectPosition {
+    text-align: center;
+    margin: 10px;
+    color: lightgreen;
+}
