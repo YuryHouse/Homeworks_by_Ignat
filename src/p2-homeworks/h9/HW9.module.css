@@ -1,0 +1,13 @@
+.hwStyle {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+}
+
+.hwTitle {
+    color: lightgreen;
+}
+
+.hwButtons {
+    display: block;
+}

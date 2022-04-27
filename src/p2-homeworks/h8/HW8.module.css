@@ -1,0 +1,15 @@
+.hwStyle {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
+
+.hwTitle {
+    color: lightgreen;
+}
+
+.hwButtons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
