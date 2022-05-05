@@ -1,0 +1,28 @@
+.preloader {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: lightgreen;;
+
+}
+
+.preloaderImage {
+    top: 50%;
+    left: 50%;
+    width: 128px;
+    height: 128px;
+    background: url('../../../public/Preloader.gif') no-repeat 50% 50%;
+    margin: 0 auto;
+}
+
+.hwStyle {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+}
+
+.hwTitle {
+    color: darkred;
+}
