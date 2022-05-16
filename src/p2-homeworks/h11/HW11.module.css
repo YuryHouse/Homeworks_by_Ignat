@@ -1,0 +1,24 @@
+.hwStyle {
+    background-color: lightpink;
+    text-align: center;margin: auto;
+}
+
+.hwTitle {
+    color: #710010;
+}
+
+.superRange {
+    display: flex;
+    align-items: center;
+    color: darkblue;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.superDoubleRange {
+    display: flex;
+    align-items: center;
+    color: darkblue;
+    font-weight: bold;
+    justify-content: center;
+}
