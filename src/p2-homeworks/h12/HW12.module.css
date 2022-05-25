@@ -1,23 +1,59 @@
+.hwStyle {
+    text-align: center;
+    margin: auto;
+}
+
+.light-text {
+    font-weight: bold;
+}
+
 .dark {
     background: dimgrey;
 }
 
 .dark-text {
-    color: aliceblue;
+    color: whitesmoke;
+    font-weight: bold;
 }
+
+.gold {
+    background: gold;
+}
+
+.gold-text {
+    color: black;
+    font-weight: bold;
+}
+
 
 .red {
     background: lightcoral;
 }
 
 .red-text {
-    color: aqua;
+    color: darkred;
+    font-weight: bold;
 }
 
-.some {
+.green {
     background: lightgreen;
+    font-weight: bold;
 }
 
-.some-text {
-    color: darkslateblue;
+.green-text {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.violet {
+    background: violet;
+}
+
+.violet-text {
+    color: darkviolet;
+    font-weight: bold;
+}
+
+.hwTitle {
+    color: darkviolet;
 }
